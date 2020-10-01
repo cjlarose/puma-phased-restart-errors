@@ -1,16 +1,22 @@
+GIT
+  remote: https://github.com/wjordan/puma.git
+  revision: de2f108fcb0a0b15076e2caac1ff8d4c32f2df27
+  branch: reactor_refactor
+  specs:
+    puma (5.0.2)
+      nio4r (~> 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
-    nio4r (2.5.2)
-    puma (4.3.5)
-      nio4r (~> 2.0)
+    nio4r (2.5.4)
     rack (2.0.9)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  puma
+  puma!
   rack (~> 2.0.1)
 
 BUNDLED WITH
